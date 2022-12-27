@@ -1,0 +1,25 @@
+//---------------initial configuration-----------------
+
+git init 
+git add readme.md
+git commit -m "first commit"
+git branch  -M main
+git remote add origin  https://github.com/teventov5/solvedProgrammingQuestions.git		//just once
+git push -u origin main
+git status
+
+__________________________________________________________________________
+
+//--------------routine updates of the repository:----------------------------
+
+git add .
+git commit -m "modified folders structure and added longestSubStringLength solution"
+
+
+git push origin main
+
+__________________________________
+
+to remove android folder from being tracked by git 
+
+git rm --cached -f android
