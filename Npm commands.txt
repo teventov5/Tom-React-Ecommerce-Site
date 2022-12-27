@@ -1,0 +1,3 @@
+npx create-react-app frontend //creating a new react project and naming the folder 'frontend'
+cd frontend
+npm start//starting the app
